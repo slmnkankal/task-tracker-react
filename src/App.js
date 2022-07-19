@@ -47,7 +47,7 @@ function App() {
   // Toggle Done
 
   const toggleDone = (toggleDoneId) => {
-    console.log('double click', toggleDoneId);
+    // console.log('double click', toggleDoneId);
     setTasks(
       tasks.map((task) => 
         task.id === toggleDoneId ? {...task, isDone : !task.isDone} : task));
